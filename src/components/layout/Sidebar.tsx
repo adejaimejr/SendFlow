@@ -109,7 +109,7 @@ export function Sidebar({ className, isOpen, onClose }: SidebarProps) {
                     </Button>
                   )}
                 </NavLink>
-                <NavLink to="/clients">
+                <NavLink to="/clientes">
                   {({ isActive }) => (
                     <Button
                       variant={isActive ? "secondary" : "ghost"}
@@ -123,7 +123,7 @@ export function Sidebar({ className, isOpen, onClose }: SidebarProps) {
                       onClick={onClose}
                     >
                       <Users className="mr-2 h-4 w-4" />
-                      Clients
+                      Clientes
                     </Button>
                   )}
                 </NavLink>

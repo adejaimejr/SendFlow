@@ -1,4 +1,15 @@
-# Logs
+# Dependências
+node_modules
+.pnp
+.pnp.js
+
+# Ambiente de produção
+/build
+/dist
+/dist-ssr
+*.local
+
+# Logs e Debug
 logs
 *.log
 npm-debug.log*
@@ -7,23 +18,87 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules/*
-dist
-dist-ssr
-*.local
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Editor directories and files
+# Cache e arquivos temporários
+.cache
+.temp
+.tmp
+*.pem
+.eslintcache
+.stylelintcache
+tsconfig.tsbuildinfo
+
+# Coverage e testes
+/coverage
+/.nyc_output
+/cypress/videos/
+/cypress/screenshots/
+
+# IDEs e editores
+.idea
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/
+*.iml
+*.ipr
+*.iws
 
+# Sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Expo/React Native
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Next.js
+.next/
+out/
+.vercel
+
+# Vite
 !node_modules/.vite
 
+# Tempo
 **/tempobook/dynamic/
 **/tempobook/storyboards/
+
+# Outros
+*.tgz
+.history
+.turbo
+.dccache
+
+# IA - Arquivos de ajuda
+prompt-interface.md
+Updates.md
+Help-ChatGPT.md
+rules.md
+UserFlow.md

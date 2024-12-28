@@ -81,10 +81,10 @@ const ClientsTable = ({
     <Card className="w-full bg-slate-800 p-4 sm:p-6">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
         <div className="flex items-center gap-4">
-          <h2 className="text-xl font-semibold text-white">Clients</h2>
+          <h2 className="text-xl font-semibold text-white">Cliente</h2>
           <Button className="bg-slate-700 hover:bg-slate-600">
             <Plus className="h-4 w-4 mr-2" />
-            Add Client
+            Add Cliente
           </Button>
         </div>
         <div className="relative w-full sm:w-64">
@@ -101,7 +101,7 @@ const ClientsTable = ({
         <Table>
           <TableHeader>
             <TableRow className="border-slate-700">
-              <TableHead className="text-slate-300">Client Name</TableHead>
+              <TableHead className="text-slate-300">Nome do Cliente</TableHead>
               <TableHead className="text-slate-300">Status</TableHead>
               <TableHead className="text-slate-300 hidden sm:table-cell">
                 Email
@@ -158,7 +158,7 @@ const ClientsTable = ({
                         View Details
                       </DropdownMenuItem>
                       <DropdownMenuItem className="cursor-pointer hover:bg-slate-700">
-                        Edit Client
+                        Edit Cliente
                       </DropdownMenuItem>
                       <DropdownMenuItem className="cursor-pointer hover:bg-slate-700 text-red-400">
                         Delete

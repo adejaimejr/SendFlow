@@ -24,7 +24,7 @@ const ClientsMetrics = ({
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 sm:gap-6">
         <MetricCard
           icon={<Users className="w-6 h-6 text-blue-400" />}
-          label="Total Clients"
+          label="Total de Clientes"
           value={metrics.totalClients}
           trend={5}
           trendLabel="vs last month"
@@ -32,7 +32,7 @@ const ClientsMetrics = ({
 
         <MetricCard
           icon={<UserCheck className="w-6 h-6 text-green-400" />}
-          label="Active Clients"
+          label="Clientes Ativos"
           value={metrics.activeClients}
           trend={2}
           trendLabel="vs last month"
@@ -48,7 +48,7 @@ const ClientsMetrics = ({
 
         <MetricCard
           icon={<Clock className="w-6 h-6 text-yellow-400" />}
-          label="Avg. Campaigns/Client"
+          label="Média de Campanhas/Cliente"
           value={metrics.avgCampaigns}
           trend={0.5}
           trendLabel="vs last month"

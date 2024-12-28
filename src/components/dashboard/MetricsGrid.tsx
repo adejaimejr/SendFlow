@@ -48,7 +48,7 @@ const MetricsGrid = ({
 
         <MetricCard
           icon={<Users className="w-6 h-6 text-purple-400" />}
-          label="Total Clients"
+          label="Total de Clientes"
           value={metrics.clientCount}
           trend={8}
           trendLabel="vs last month"

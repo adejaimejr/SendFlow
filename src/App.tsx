@@ -15,8 +15,8 @@ function App() {
         return { title: "Campaigns", showPeriodSelector: false };
       case "/analytics":
         return { title: "Analytics", showPeriodSelector: true };
-      case "/clients":
-        return { title: "Clients", showPeriodSelector: false };
+      case "/cliente":
+        return { title: "Cliente", showPeriodSelector: false };
       case "/settings":
         return { title: "Settings", showPeriodSelector: false };
       default:
@@ -42,7 +42,7 @@ function App() {
             path="/analytics"
             element={<div className="p-8 text-white">Analytics Page</div>}
           />
-          <Route path="/clients" element={<Clients />} />
+          <Route path="/cliente" element={<Clients />} />
           <Route
             path="/settings"
             element={<div className="p-8 text-white">Settings Page</div>}
